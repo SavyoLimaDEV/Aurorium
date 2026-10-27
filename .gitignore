@@ -1,0 +1,11 @@
+node_modules/
+**/node_modules/
+frontend/dist/
+.env
+.env.*
+!.env.example
+backend/data/*.sqlite
+backend/data/*.sqlite-*
+*.log
+.DS_Store
+.vscode/

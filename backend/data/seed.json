@@ -1,0 +1,1549 @@
+{
+  "users": [
+    {
+      "id": "u_admin",
+      "name": "Laura Almeida",
+      "email": "admin@demo.rpg",
+      "role": "admin",
+      "joined": [
+        "c1",
+        "c2"
+      ],
+      "masterCommunities": [],
+      "systems": [
+        "Tormenta20"
+      ],
+      "days": [
+        3
+      ],
+      "phone": "",
+      "notify": {
+        "inApp": true,
+        "whatsapp": false,
+        "types": [
+          "vacancy",
+          "approval",
+          "session"
+        ],
+        "lead": 3,
+        "hours": "09:00-21:00"
+      }
+    },
+    {
+      "id": "u_m1",
+      "name": "Thomas Valen",
+      "email": "mestre@demo.rpg",
+      "role": "master",
+      "joined": [
+        "c1",
+        "c2"
+      ],
+      "masterCommunities": [
+        "c1",
+        "c2"
+      ],
+      "systems": [
+        "D&D 5e"
+      ],
+      "days": [
+        3,
+        6
+      ],
+      "phone": "",
+      "notify": {
+        "inApp": true,
+        "whatsapp": false,
+        "types": [
+          "vacancy",
+          "approval",
+          "session"
+        ],
+        "lead": 3,
+        "hours": "09:00-21:00"
+      }
+    },
+    {
+      "id": "u_player",
+      "name": "Caelum Ardent",
+      "email": "jogador@demo.rpg",
+      "role": "player",
+      "joined": [
+        "c1",
+        "c2"
+      ],
+      "masterCommunities": [],
+      "systems": [
+        "D&D 5e",
+        "Ordem Paranormal"
+      ],
+      "days": [
+        2,
+        3,
+        6
+      ],
+      "phone": "",
+      "notify": {
+        "inApp": true,
+        "whatsapp": false,
+        "types": [
+          "vacancy",
+          "approval",
+          "session",
+          "reminder"
+        ],
+        "lead": 3,
+        "hours": "09:00-21:00"
+      }
+    },
+    {
+      "id": "u_m2",
+      "name": "Íris Moreira",
+      "email": "iris@demo.rpg",
+      "role": "master",
+      "joined": [
+        "c1"
+      ],
+      "masterCommunities": [
+        "c1"
+      ],
+      "systems": [
+        "Ordem Paranormal"
+      ],
+      "days": [
+        5
+      ],
+      "phone": "",
+      "notify": {
+        "inApp": true,
+        "whatsapp": false,
+        "types": [
+          "session"
+        ],
+        "lead": 3,
+        "hours": "09:00-21:00"
+      }
+    },
+    {
+      "id": "u_m3",
+      "name": "Miguel Costa",
+      "email": "miguel@demo.rpg",
+      "role": "master",
+      "joined": [
+        "c2"
+      ],
+      "masterCommunities": [
+        "c2"
+      ],
+      "systems": [
+        "Tormenta20"
+      ],
+      "days": [
+        6
+      ],
+      "phone": "",
+      "notify": {
+        "inApp": true,
+        "whatsapp": false,
+        "types": [
+          "session"
+        ],
+        "lead": 3,
+        "hours": "09:00-21:00"
+      }
+    },
+    {
+      "id": "u_m4",
+      "name": "Nina Azevedo",
+      "email": "nina@demo.rpg",
+      "role": "master",
+      "joined": [
+        "c2"
+      ],
+      "masterCommunities": [
+        "c2"
+      ],
+      "systems": [
+        "Call of Cthulhu"
+      ],
+      "days": [
+        0
+      ],
+      "phone": "",
+      "notify": {
+        "inApp": true,
+        "whatsapp": false,
+        "types": [
+          "session"
+        ],
+        "lead": 3,
+        "hours": "09:00-21:00"
+      }
+    },
+    {
+      "id": "u_e0",
+      "name": "Rafael Nunes",
+      "email": "jogador1@demo.rpg",
+      "role": "player",
+      "joined": [
+        "c1"
+      ],
+      "masterCommunities": [],
+      "systems": [
+        "D&D 5e"
+      ],
+      "days": [
+        2,
+        3,
+        5
+      ],
+      "phone": "",
+      "notify": {
+        "inApp": true,
+        "whatsapp": false,
+        "types": [
+          "approval",
+          "vacancy",
+          "session"
+        ],
+        "lead": 3,
+        "hours": "09:00-21:00"
+      }
+    },
+    {
+      "id": "u_e1",
+      "name": "Beatriz Andrade",
+      "email": "jogador2@demo.rpg",
+      "role": "player",
+      "joined": [
+        "c2"
+      ],
+      "masterCommunities": [],
+      "systems": [
+        "Tormenta20"
+      ],
+      "days": [
+        2,
+        3,
+        5
+      ],
+      "phone": "",
+      "notify": {
+        "inApp": true,
+        "whatsapp": false,
+        "types": [
+          "approval",
+          "vacancy",
+          "session"
+        ],
+        "lead": 3,
+        "hours": "09:00-21:00"
+      }
+    },
+    {
+      "id": "u_e2",
+      "name": "João Pereira",
+      "email": "jogador3@demo.rpg",
+      "role": "player",
+      "joined": [
+        "c1"
+      ],
+      "masterCommunities": [],
+      "systems": [
+        "Ordem Paranormal"
+      ],
+      "days": [
+        2,
+        3,
+        5
+      ],
+      "phone": "",
+      "notify": {
+        "inApp": true,
+        "whatsapp": false,
+        "types": [
+          "approval",
+          "vacancy",
+          "session"
+        ],
+        "lead": 3,
+        "hours": "09:00-21:00"
+      }
+    },
+    {
+      "id": "u_e3",
+      "name": "Mariana Souza",
+      "email": "jogador4@demo.rpg",
+      "role": "player",
+      "joined": [
+        "c2"
+      ],
+      "masterCommunities": [],
+      "systems": [
+        "Pathfinder 2e"
+      ],
+      "days": [
+        2,
+        3,
+        5
+      ],
+      "phone": "",
+      "notify": {
+        "inApp": true,
+        "whatsapp": false,
+        "types": [
+          "approval",
+          "vacancy",
+          "session"
+        ],
+        "lead": 3,
+        "hours": "09:00-21:00"
+      }
+    },
+    {
+      "id": "u_e4",
+      "name": "Pedro Henrique",
+      "email": "jogador5@demo.rpg",
+      "role": "player",
+      "joined": [
+        "c1"
+      ],
+      "masterCommunities": [],
+      "systems": [
+        "Call of Cthulhu"
+      ],
+      "days": [
+        2,
+        3,
+        5
+      ],
+      "phone": "",
+      "notify": {
+        "inApp": true,
+        "whatsapp": false,
+        "types": [
+          "approval",
+          "vacancy",
+          "session"
+        ],
+        "lead": 3,
+        "hours": "09:00-21:00"
+      }
+    },
+    {
+      "id": "u_e5",
+      "name": "Luiza Rocha",
+      "email": "jogador6@demo.rpg",
+      "role": "player",
+      "joined": [
+        "c2"
+      ],
+      "masterCommunities": [],
+      "systems": [
+        "Vampiro: A Máscara"
+      ],
+      "days": [
+        2,
+        3,
+        5
+      ],
+      "phone": "",
+      "notify": {
+        "inApp": true,
+        "whatsapp": false,
+        "types": [
+          "approval",
+          "vacancy",
+          "session"
+        ],
+        "lead": 3,
+        "hours": "09:00-21:00"
+      }
+    },
+    {
+      "id": "u_e6",
+      "name": "André Lima",
+      "email": "jogador7@demo.rpg",
+      "role": "player",
+      "joined": [
+        "c1"
+      ],
+      "masterCommunities": [],
+      "systems": [
+        "D&D 5e"
+      ],
+      "days": [
+        2,
+        3,
+        5
+      ],
+      "phone": "",
+      "notify": {
+        "inApp": true,
+        "whatsapp": false,
+        "types": [
+          "approval",
+          "vacancy",
+          "session"
+        ],
+        "lead": 3,
+        "hours": "09:00-21:00"
+      }
+    },
+    {
+      "id": "u_e7",
+      "name": "Fernanda Torres",
+      "email": "jogador8@demo.rpg",
+      "role": "player",
+      "joined": [
+        "c2"
+      ],
+      "masterCommunities": [],
+      "systems": [
+        "Tormenta20"
+      ],
+      "days": [
+        2,
+        3,
+        5
+      ],
+      "phone": "",
+      "notify": {
+        "inApp": true,
+        "whatsapp": false,
+        "types": [
+          "approval",
+          "vacancy",
+          "session"
+        ],
+        "lead": 3,
+        "hours": "09:00-21:00"
+      }
+    },
+    {
+      "id": "u_e8",
+      "name": "Gustavo Almeida",
+      "email": "jogador9@demo.rpg",
+      "role": "player",
+      "joined": [
+        "c1"
+      ],
+      "masterCommunities": [],
+      "systems": [
+        "Ordem Paranormal"
+      ],
+      "days": [
+        2,
+        3,
+        5
+      ],
+      "phone": "",
+      "notify": {
+        "inApp": true,
+        "whatsapp": false,
+        "types": [
+          "approval",
+          "vacancy",
+          "session"
+        ],
+        "lead": 3,
+        "hours": "09:00-21:00"
+      }
+    },
+    {
+      "id": "u_e9",
+      "name": "Helena Santos",
+      "email": "jogador10@demo.rpg",
+      "role": "player",
+      "joined": [
+        "c2"
+      ],
+      "masterCommunities": [],
+      "systems": [
+        "Pathfinder 2e"
+      ],
+      "days": [
+        2,
+        3,
+        5
+      ],
+      "phone": "",
+      "notify": {
+        "inApp": true,
+        "whatsapp": false,
+        "types": [
+          "approval",
+          "vacancy",
+          "session"
+        ],
+        "lead": 3,
+        "hours": "09:00-21:00"
+      }
+    },
+    {
+      "id": "u_e10",
+      "name": "Davi Martins",
+      "email": "jogador11@demo.rpg",
+      "role": "player",
+      "joined": [
+        "c1"
+      ],
+      "masterCommunities": [],
+      "systems": [
+        "Call of Cthulhu"
+      ],
+      "days": [
+        2,
+        3,
+        5
+      ],
+      "phone": "",
+      "notify": {
+        "inApp": true,
+        "whatsapp": false,
+        "types": [
+          "approval",
+          "vacancy",
+          "session"
+        ],
+        "lead": 3,
+        "hours": "09:00-21:00"
+      }
+    },
+    {
+      "id": "u_e11",
+      "name": "Bianca Ribeiro",
+      "email": "jogador12@demo.rpg",
+      "role": "player",
+      "joined": [
+        "c2"
+      ],
+      "masterCommunities": [],
+      "systems": [
+        "Vampiro: A Máscara"
+      ],
+      "days": [
+        2,
+        3,
+        5
+      ],
+      "phone": "",
+      "notify": {
+        "inApp": true,
+        "whatsapp": false,
+        "types": [
+          "approval",
+          "vacancy",
+          "session"
+        ],
+        "lead": 3,
+        "hours": "09:00-21:00"
+      }
+    },
+    {
+      "id": "u_e12",
+      "name": "Isabela Cardoso",
+      "email": "jogador13@demo.rpg",
+      "role": "player",
+      "joined": [
+        "c1"
+      ],
+      "masterCommunities": [],
+      "systems": [
+        "D&D 5e"
+      ],
+      "days": [
+        2,
+        3,
+        5
+      ],
+      "phone": "",
+      "notify": {
+        "inApp": true,
+        "whatsapp": false,
+        "types": [
+          "approval",
+          "vacancy",
+          "session"
+        ],
+        "lead": 3,
+        "hours": "09:00-21:00"
+      }
+    },
+    {
+      "id": "u_e13",
+      "name": "Lucas Mendes",
+      "email": "jogador14@demo.rpg",
+      "role": "player",
+      "joined": [
+        "c2"
+      ],
+      "masterCommunities": [],
+      "systems": [
+        "Tormenta20"
+      ],
+      "days": [
+        2,
+        3,
+        5
+      ],
+      "phone": "",
+      "notify": {
+        "inApp": true,
+        "whatsapp": false,
+        "types": [
+          "approval",
+          "vacancy",
+          "session"
+        ],
+        "lead": 3,
+        "hours": "09:00-21:00"
+      }
+    },
+    {
+      "id": "u_e14",
+      "name": "Amanda Oliveira",
+      "email": "jogador15@demo.rpg",
+      "role": "player",
+      "joined": [
+        "c1"
+      ],
+      "masterCommunities": [],
+      "systems": [
+        "Ordem Paranormal"
+      ],
+      "days": [
+        2,
+        3,
+        5
+      ],
+      "phone": "",
+      "notify": {
+        "inApp": true,
+        "whatsapp": false,
+        "types": [
+          "approval",
+          "vacancy",
+          "session"
+        ],
+        "lead": 3,
+        "hours": "09:00-21:00"
+      }
+    }
+  ],
+  "communities": [
+    {
+      "id": "c1",
+      "name": "Ordem do Dragão Dourado",
+      "description": "Uma comunidade dedicada a aventuras épicas e campanhas de longa duração.",
+      "adminId": "u_admin",
+      "type": "free",
+      "active": true,
+      "rules": "Respeito e compromisso com os horários.",
+      "fee": 0
+    },
+    {
+      "id": "c2",
+      "name": "Mesa Nobre",
+      "description": "Campanhas de fantasia, mistério e encontros regulares.",
+      "adminId": "u_admin",
+      "type": "paid",
+      "active": true,
+      "rules": "Participação responsável e respeito às regras da comunidade.",
+      "fee": 35
+    }
+  ],
+  "tables": [
+    {
+      "id": "t1",
+      "name": "A Maldição de Eldrath",
+      "communityId": "c1",
+      "masterId": "u_m1",
+      "system": "D&D 5e",
+      "genre": "Fantasia sombria",
+      "description": "Um antigo mal desperta além das montanhas. Investigue segredos e una aliados para salvar o reino.",
+      "mode": "Online",
+      "capacity": 5,
+      "days": [
+        3
+      ],
+      "time": "19:30",
+      "duration": 3,
+      "recurrence": "weekly",
+      "start": "2026-10-29",
+      "end": "2027-01-10",
+      "status": "open",
+      "waitlist": true,
+      "rules": "Respeito, pontualidade e comunicação."
+    },
+    {
+      "id": "t2",
+      "name": "As Cinzas de Tharion",
+      "communityId": "c1",
+      "masterId": "u_m1",
+      "system": "D&D 5e",
+      "genre": "Alta fantasia",
+      "description": "Explore uma cidade perdida e descubra o destino de antigos guardiões.",
+      "mode": "Online",
+      "capacity": 4,
+      "days": [
+        6
+      ],
+      "time": "15:00",
+      "duration": 4,
+      "recurrence": "weekly",
+      "start": "2026-10-29",
+      "end": "2027-01-10",
+      "status": "open",
+      "waitlist": true,
+      "rules": "Jogadores iniciantes são bem-vindos."
+    },
+    {
+      "id": "t3",
+      "name": "Confins do Dragão",
+      "communityId": "c2",
+      "masterId": "u_m3",
+      "system": "Tormenta20",
+      "genre": "Aventura",
+      "description": "Heróis improváveis enfrentam os perigos de um império esquecido.",
+      "mode": "Híbrida",
+      "capacity": 4,
+      "days": [
+        6
+      ],
+      "time": "19:00",
+      "duration": 3,
+      "recurrence": "biweekly",
+      "start": "2026-10-29",
+      "end": "2027-01-10",
+      "status": "open",
+      "waitlist": true,
+      "rules": "Leitura prévia do guia da mesa."
+    },
+    {
+      "id": "t4",
+      "name": "Ventos da Maré Negra",
+      "communityId": "c2",
+      "masterId": "u_m4",
+      "system": "Call of Cthulhu",
+      "genre": "Investigação",
+      "description": "Um mistério costeiro com pistas, tensão e escolhas difíceis.",
+      "mode": "Online",
+      "capacity": 4,
+      "days": [
+        0
+      ],
+      "time": "20:00",
+      "duration": 3,
+      "recurrence": "weekly",
+      "start": "2026-10-29",
+      "end": "2027-01-10",
+      "status": "open",
+      "waitlist": true,
+      "rules": "Campanha de horror investigativo."
+    },
+    {
+      "id": "t5",
+      "name": "O Legado de Valoria",
+      "communityId": "c1",
+      "masterId": "u_m2",
+      "system": "Ordem Paranormal",
+      "genre": "Suspense",
+      "description": "Investigações sobrenaturais ligam famílias e fenômenos inexplicáveis.",
+      "mode": "Online",
+      "capacity": 5,
+      "days": [
+        5
+      ],
+      "time": "20:30",
+      "duration": 3,
+      "recurrence": "weekly",
+      "start": "2026-10-29",
+      "end": "2027-01-10",
+      "status": "open",
+      "waitlist": true,
+      "rules": "Respeitar os limites de conforto de todos."
+    },
+    {
+      "id": "t6",
+      "name": "Lâminas na Névoa",
+      "communityId": "c2",
+      "masterId": "u_m3",
+      "system": "Pathfinder 2e",
+      "genre": "Fantasia urbana",
+      "description": "Guildas rivais disputam um artefato em uma cidade envolta em névoa.",
+      "mode": "Presencial",
+      "capacity": 4,
+      "days": [
+        2
+      ],
+      "time": "18:30",
+      "duration": 3,
+      "recurrence": "biweekly",
+      "start": "2026-10-29",
+      "end": "2027-01-10",
+      "status": "open",
+      "waitlist": true,
+      "rules": "Encontros combinados com antecedência."
+    }
+  ],
+  "requests": [
+    {
+      "id": "r1",
+      "tableId": "t1",
+      "userId": "u_player",
+      "status": "approved",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "r2",
+      "tableId": "t1",
+      "userId": "u_e0",
+      "status": "approved",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "r3",
+      "tableId": "t1",
+      "userId": "u_e1",
+      "status": "approved",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "r5",
+      "tableId": "t3",
+      "userId": "u_e2",
+      "status": "approved",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "r6",
+      "tableId": "t3",
+      "userId": "u_e3",
+      "status": "approved",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "r7",
+      "tableId": "t3",
+      "userId": "u_e4",
+      "status": "approved",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "r8",
+      "tableId": "t3",
+      "userId": "u_e5",
+      "status": "approved",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "r10",
+      "tableId": "t2",
+      "userId": "u_e6",
+      "status": "approved",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "r11",
+      "tableId": "t2",
+      "userId": "u_e7",
+      "status": "approved",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "r12",
+      "tableId": "t1",
+      "userId": "u_e8",
+      "status": "pending",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "r13",
+      "tableId": "t3",
+      "userId": "u_player",
+      "status": "waitlisted",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "r14",
+      "tableId": "t5",
+      "userId": "u_player",
+      "status": "pending",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "r15",
+      "tableId": "t5",
+      "userId": "u_e9",
+      "status": "approved",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "r16",
+      "tableId": "t4",
+      "userId": "u_e10",
+      "status": "approved",
+      "date": "2026-10-27"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "smvq3zmbd45xy",
+      "tableId": "t1",
+      "date": "2026-11-04",
+      "time": "19:30",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t1",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbdz96a",
+      "tableId": "t1",
+      "date": "2026-11-11",
+      "time": "19:30",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t1",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbdgzeq",
+      "tableId": "t1",
+      "date": "2026-11-18",
+      "time": "19:30",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t1",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbdoywb",
+      "tableId": "t1",
+      "date": "2026-11-25",
+      "time": "19:30",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t1",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbdj8ng",
+      "tableId": "t1",
+      "date": "2026-12-02",
+      "time": "19:30",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t1",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbdyo68",
+      "tableId": "t1",
+      "date": "2026-12-09",
+      "time": "19:30",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t1",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbd8t9x",
+      "tableId": "t1",
+      "date": "2026-12-16",
+      "time": "19:30",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t1",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbdt6zm",
+      "tableId": "t1",
+      "date": "2026-12-23",
+      "time": "19:30",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t1",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbd708s",
+      "tableId": "t1",
+      "date": "2026-12-30",
+      "time": "19:30",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t1",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbdodvg",
+      "tableId": "t1",
+      "date": "2027-01-06",
+      "time": "19:30",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t1",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbdr2qb",
+      "tableId": "t2",
+      "date": "2026-10-31",
+      "time": "15:00",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t2",
+      "duration": 4,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbdqff6",
+      "tableId": "t2",
+      "date": "2026-11-07",
+      "time": "15:00",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t2",
+      "duration": 4,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbdx7l0",
+      "tableId": "t2",
+      "date": "2026-11-14",
+      "time": "15:00",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t2",
+      "duration": 4,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbde7gh",
+      "tableId": "t2",
+      "date": "2026-11-21",
+      "time": "15:00",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t2",
+      "duration": 4,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbd3inm",
+      "tableId": "t2",
+      "date": "2026-11-28",
+      "time": "15:00",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t2",
+      "duration": 4,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbesu6i",
+      "tableId": "t2",
+      "date": "2026-12-05",
+      "time": "15:00",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t2",
+      "duration": 4,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbem1ed",
+      "tableId": "t2",
+      "date": "2026-12-12",
+      "time": "15:00",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t2",
+      "duration": 4,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbe3d09",
+      "tableId": "t2",
+      "date": "2026-12-19",
+      "time": "15:00",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t2",
+      "duration": 4,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbe6w9j",
+      "tableId": "t2",
+      "date": "2026-12-26",
+      "time": "15:00",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t2",
+      "duration": 4,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbe5y4w",
+      "tableId": "t2",
+      "date": "2027-01-02",
+      "time": "15:00",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t2",
+      "duration": 4,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbe8rh7",
+      "tableId": "t2",
+      "date": "2027-01-09",
+      "time": "15:00",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t2",
+      "duration": 4,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbe8d6j",
+      "tableId": "t3",
+      "date": "2026-10-31",
+      "time": "19:00",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t3",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbebeh8",
+      "tableId": "t3",
+      "date": "2026-11-14",
+      "time": "19:00",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t3",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbetoj3",
+      "tableId": "t3",
+      "date": "2026-11-28",
+      "time": "19:00",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t3",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbenzqf",
+      "tableId": "t3",
+      "date": "2026-12-12",
+      "time": "19:00",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t3",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbeztcc",
+      "tableId": "t3",
+      "date": "2026-12-26",
+      "time": "19:00",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t3",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbeckwn",
+      "tableId": "t3",
+      "date": "2027-01-09",
+      "time": "19:00",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t3",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbesn4x",
+      "tableId": "t4",
+      "date": "2026-11-01",
+      "time": "20:00",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t4",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbei5ne",
+      "tableId": "t4",
+      "date": "2026-11-08",
+      "time": "20:00",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t4",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbepoga",
+      "tableId": "t4",
+      "date": "2026-11-15",
+      "time": "20:00",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t4",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbe8t0m",
+      "tableId": "t4",
+      "date": "2026-11-22",
+      "time": "20:00",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t4",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbe4fis",
+      "tableId": "t4",
+      "date": "2026-11-29",
+      "time": "20:00",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t4",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmberdiq",
+      "tableId": "t4",
+      "date": "2026-12-06",
+      "time": "20:00",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t4",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbetyek",
+      "tableId": "t4",
+      "date": "2026-12-13",
+      "time": "20:00",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t4",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbeeakn",
+      "tableId": "t4",
+      "date": "2026-12-20",
+      "time": "20:00",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t4",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbeijy6",
+      "tableId": "t4",
+      "date": "2026-12-27",
+      "time": "20:00",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t4",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbesune",
+      "tableId": "t4",
+      "date": "2027-01-03",
+      "time": "20:00",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t4",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbegtt4",
+      "tableId": "t4",
+      "date": "2027-01-10",
+      "time": "20:00",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t4",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbeq1yk",
+      "tableId": "t5",
+      "date": "2026-10-30",
+      "time": "20:30",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t5",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbe0sun",
+      "tableId": "t5",
+      "date": "2026-11-06",
+      "time": "20:30",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t5",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbeumq2",
+      "tableId": "t5",
+      "date": "2026-11-13",
+      "time": "20:30",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t5",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbexh9k",
+      "tableId": "t5",
+      "date": "2026-11-20",
+      "time": "20:30",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t5",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbe3tlw",
+      "tableId": "t5",
+      "date": "2026-11-27",
+      "time": "20:30",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t5",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbe5lju",
+      "tableId": "t5",
+      "date": "2026-12-04",
+      "time": "20:30",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t5",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbevxzx",
+      "tableId": "t5",
+      "date": "2026-12-11",
+      "time": "20:30",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t5",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbebwyv",
+      "tableId": "t5",
+      "date": "2026-12-18",
+      "time": "20:30",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t5",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbe64it",
+      "tableId": "t5",
+      "date": "2026-12-25",
+      "time": "20:30",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t5",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbeyrj3",
+      "tableId": "t5",
+      "date": "2027-01-01",
+      "time": "20:30",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t5",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbei8k4",
+      "tableId": "t5",
+      "date": "2027-01-08",
+      "time": "20:30",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t5",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbecl62",
+      "tableId": "t6",
+      "date": "2026-11-03",
+      "time": "18:30",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t6",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbedszs",
+      "tableId": "t6",
+      "date": "2026-11-17",
+      "time": "18:30",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t6",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbeb8z4",
+      "tableId": "t6",
+      "date": "2026-12-01",
+      "time": "18:30",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t6",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbej1cn",
+      "tableId": "t6",
+      "date": "2026-12-15",
+      "time": "18:30",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t6",
+      "duration": 3,
+      "attendance": {}
+    },
+    {
+      "id": "smvq3zmbe6jp5",
+      "tableId": "t6",
+      "date": "2026-12-29",
+      "time": "18:30",
+      "title": "Sessão de campanha",
+      "status": "scheduled",
+      "seriesId": "seed-t6",
+      "duration": 3,
+      "attendance": {}
+    }
+  ],
+  "notices": [
+    {
+      "id": "n1",
+      "userId": "u_player",
+      "type": "community",
+      "text": "Bem-vindo à Aurorium! Explore novas mesas e acompanhe suas sessões.",
+      "date": "2026-10-27T03:11:23.834Z",
+      "read": false,
+      "href": "dashboard",
+      "whatsappStatus": "Não solicitado"
+    },
+    {
+      "id": "n2",
+      "userId": "u_m1",
+      "type": "request",
+      "text": "Você possui uma solicitação de ingresso aguardando análise.",
+      "date": "2026-10-27T03:11:23.834Z",
+      "read": false,
+      "href": "requests",
+      "whatsappStatus": "Não solicitado"
+    }
+  ],
+  "dues": [
+    {
+      "id": "d0",
+      "communityId": "c2",
+      "userId": "u_e1",
+      "period": "2026-10",
+      "amount": 35,
+      "due": "2026-11-06",
+      "status": "paid"
+    },
+    {
+      "id": "d1",
+      "communityId": "c2",
+      "userId": "u_e3",
+      "period": "2026-10",
+      "amount": 35,
+      "due": "2026-11-06",
+      "status": "pending"
+    },
+    {
+      "id": "d2",
+      "communityId": "c2",
+      "userId": "u_e5",
+      "period": "2026-10",
+      "amount": 35,
+      "due": "2026-11-06",
+      "status": "late"
+    },
+    {
+      "id": "d3",
+      "communityId": "c2",
+      "userId": "u_player",
+      "period": "2026-10",
+      "amount": 35,
+      "due": "2026-11-06",
+      "status": "paid"
+    }
+  ],
+  "activity": [],
+  "masterApplications": [],
+  "whatsappLog": [],
+  "version": 1
+}

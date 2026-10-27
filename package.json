@@ -1,0 +1,23 @@
+{
+  "name": "aurorium-v2",
+  "private": true,
+  "version": "2.0.0",
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:api": "node --experimental-sqlite backend/server.mjs",
+    "dev:web": "npm --workspace frontend run dev",
+    "db:setup": "node --experimental-sqlite backend/setup.mjs",
+    "db:reset": "node --experimental-sqlite backend/setup.mjs --reset",
+    "test:api": "node --test backend/tests/*.test.mjs",
+    "typecheck": "npm --workspace frontend run typecheck",
+    "build": "npm --workspace frontend run build",
+    "preview": "npm --workspace frontend run preview",
+    "start": "node --experimental-sqlite backend/server.mjs"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}
